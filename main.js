@@ -1,4 +1,3 @@
-// Add your JavaScript code here
 
 // Example JavaScript function
 function greet(name) {
