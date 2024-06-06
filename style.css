@@ -6,34 +6,23 @@
   box-sizing: border-box;
 }
 
-/* Estilos gerais */
+/* Estilos globais */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f7f7f7;
-  color: #333;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 header {
-  background-color: #28a745;
-  color: #fff;
-  padding: 20px 0;
+  background-color: #f4f4f4;
+  padding: 20px;
 }
 
 header h1 {
-  font-size: 2em;
-  margin-left: 20px;
+  color: #333;
 }
 
 nav ul {
-  list-style: none;
-  margin-top: 10px;
+  list-style-type: none;
 }
 
 nav ul li {
@@ -42,43 +31,21 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
   text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 20px;
 }
 
 section {
-  padding: 40px 0;
-}
-
-h2 {
-  font-size: 1.8em;
-  margin-bottom: 20px;
-}
-
-p {
-  font-size: 1.1em;
-  margin-bottom: 20px;
-}
-
-.cta {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #28a745;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.product {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 footer {
   background-color: #333;
   color: #fff;
-  padding: 20px 0;
+  padding: 20px;
   text-align: center;
 }
